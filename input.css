@@ -1,0 +1,5 @@
+@import "tailwindcss";
+@font-face {
+    font-family: "InterVariable.Woff2";
+    src: url("/font/InterVariable.woff2") format("woff2");
+}

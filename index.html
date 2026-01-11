@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+</head>
+<body class="bg-slate-800">
+  <form id="form" action="" class="container ">
+    <div id="befor" class="">
+    <div class=" flex flex-col w-full min-w-sm mx-auto overflow-x-hidden bg-white sm:flex-row-reverse sm:w-full max-w-1/2 sm:mt-20 
+     sm:container sm:mx-auto  sm:rounded-lg">
+      <div class="block w-full sm:hidden ">
+        <img src="../images/illustration-sign-up-mobile.svg" alt="" class=" w-full  object-cover">
+      </div>
+       <div class="hidden sm:block container p-3">
+        <img src="../images/illustration-sign-up-desktop.svg" alt="" class=" w-full  object-cover">
+      </div>
+      <div class=" flex flex-col  container p-4  ">
+        <h1 class="text-3xl font-bold text-slate-700 sm:pt-4">Stay updated!</h1>
+        <p class="tracking-tight text-slate-600 mt-2">Join 60,000+ product managers receiving monthly updates on:</p>
+            
+         <div class="mt-2 flex justify-baseline gap-3">
+          <img src="../images/icon-list.svg" alt="" class="w-4 h-5 mt-1">
+          <p class="text-slate-700"> product discovery and building what matters</p>
+        </div>
+            
+         <div class="mt-2 flex justify-baseline gap-3">
+          <img src="../images/icon-list.svg" alt="" class="w-4 h-5 mt-1">
+          <p class="text-slate-700"> Measuring to ensure updates are a success</p>
+        </div>
+
+         <div class="mt-2 flex justify-baseline gap-3">
+          <img src="../images/icon-list.svg" alt="" class="w-4 h-5 mt-1">
+          <p class="text-slate-700">And musch more!</p>
+        </div>
+        <div class="mt-4 ">
+          <div class="flex justify-between">
+              <label for="" class=" mt-2 text-slate-800 tracking-tight">Email address</label>
+              <span id="errorText" class=" mt-2 inline-block text-red-500"></span>
+          </div>
+         
+          <input id="email" name="email" class= "  mt-2 w-full px-2 py-2 border border-slate-300 focus:outline-none rounded-lg  " placeholder="email@company.com">
+          <button id="btn" type="submit"  class=" bg-slate-800 px-2 py-2 w-full mt-2 text-white rounded-lg tracking-tight hover:bg-slate-700 ">Subscribe to monthly newsletter</button>
+        </div>
+    </div>
+    </div>
+   </div> 
+   <!--after submit -->
+    <div id="after" class="hidden flex flex-col max-w-sm  min-h-screen relative bg-white container mx-auto p-4
+     sm:rounded-lg sm:mt-20 ">
+     <div class="mt-20 block sm:hidden"></div>
+      <div class="">
+        <img src="../images/icon-success.svg" alt="">
+      </div>
+       <div class="mt-20 block sm:hidden"></div>
+      <div class=" ">
+          <h1 class="text-4xl font-bold text-slate-800 tracking-tight mb-5 sm:mt-2">Thanks for subscribing!</h1>
+           <p class="text-slate-700 tracking-tight">A confirmation email has ben sent to 
+            <span id="showEmail" class="text-slate-800 font-semibold"></span>
+            Please onpen it and click the button inside to confirm your subscription
+          </p>
+      </div>
+      <div class="mt-10 block sm:hidden"></div>
+      <div class="mt-20 block sm:hidden"></div>
+         
+           <button class="mt-5  w-full py-2 px-2 rounded-lg bg-slate-800 text-white font-semibold hover:bg-slate-700 
+           sm:hover:bg-red-500 sm:hover:shadow-red-400">Dismiss message</button>
+      <div class="mt-10 block sm:hidden"></div>
+    </div>
+  </form>
+ <script src="/min.js"></script>       
+</body>
+</html>
