@@ -9,7 +9,7 @@ function eventHandler(e){
     e.preventDefault();
     const formData = new FormData(form).entries();
     const {email} = Object.fromEntries(formData);
-    console.log(email);
+    
     const errorMessage = emailValidation(email);
     if(errorMessage){
        const erroMessageElement = document.getElementById("errorText");
